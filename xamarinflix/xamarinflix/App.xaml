@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinflix.App">
+    <Application.Resources>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#2f2f30" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#e80000" />
+            <Setter Property="CornerRadius" Value="0" />
+            <Setter Property="VerticalOptions" Value="Fill" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+
+        <Style TargetType="ImageButton">
+            <Setter Property="Aspect" Value="AspectFill" />
+        </Style>
+        
+        <Style x:Key="titulo" TargetType="Label">
+            <Setter Property="TextColor" Value="#666" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="TextTransform" Value="Uppercase" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+        
+        <Style x:Key="textoTitulo" TargetType="Label">
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+    </Application.Resources>
+</Application>
